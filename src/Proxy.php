@@ -6,8 +6,7 @@
  * See the LICENSE file for more information.
  */
 
-namespace Yoshi2889\Multilog;
-
+namespace Multilog;
 
 use Psr\Log\LoggerInterface;
 
