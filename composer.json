@@ -1,0 +1,26 @@
+{
+    "name": "yoshi2889/multilog",
+    "description": "PSR-3 compliant logging proxy",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "psr/log": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yoshi2889\\Multilog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yoshi2889",
+            "email": "rick.2889@gmail.com",
+            "homepage": "https://nanosector.nl",
+            "role": "Lead Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
